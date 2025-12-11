@@ -111,7 +111,7 @@ def video_feed():
 # -------------------- HELLO --------------------
 @app.get("/hello")
 def hello():
-    return {"message": "Hello FastAPI"}
+    return {"message": "Hello FastAPIs"}
 
 # -------------------- RUN COMMAND --------------------
 # uvicorn main:app --reload
