@@ -116,3 +116,5 @@ def hello():
 # -------------------- RUN COMMAND --------------------
 # uvicorn main:app --reload
 # http://127.0.0.1:8000/docs
+# nerdctl build -t yolo-api .
+# nerdctl run -p 8000:8000 yolo-api
